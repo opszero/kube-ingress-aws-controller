@@ -1,4 +1,4 @@
-FROM registry.opensource.zalan.do/stups/alpine:UPSTREAM
+FROM alpine:3.5
 MAINTAINER Team Teapot @ Zalando SE <team-teapot@zalando.de>
 
 # add scm-source

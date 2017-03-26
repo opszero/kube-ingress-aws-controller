@@ -2,7 +2,7 @@
 
 BINARY        ?= kube-aws-ingress-controller
 VERSION       ?= $(shell git describe --tags --always --dirty)
-IMAGE         ?= registry-write.opensource.zalan.do/teapot/$(BINARY)
+IMAGE         ?= opszero/$(BINARY)
 TAG           ?= $(VERSION)
 GITHEAD       = $(shell git rev-parse --short HEAD)
 GITURL        = $(shell git config --get remote.origin.url)
